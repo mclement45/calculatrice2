@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0mIntegrationTest[0m
+[0m[[0minfo[0m] [0m[32m+[0m test[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test IntegrationTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.01 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m1 tests, 0 failures, 0 errors[0m[0m
+[0m[[0minfo[0m] [0mApplicationTest[0m
+[0m[[0minfo[0m] [0m[32m+[0m testCarre[0m
+[0m[[0minfo[0m] [0m[32m+[0m testSoustraction[0m
+[0m[[0minfo[0m] [0m[32m+[0m testMultiplication[0m
+[0m[[0minfo[0m] [0m[32m+[0m testAddition[0m
+[0m[[0minfo[0m] [0m[32m+[0m testDivision[0m
+[0m[[0minfo[0m] [0m[32m+[0m testRacine[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for test ApplicationTest[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.001 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m6 tests, 0 failures, 0 errors[0m[0m
