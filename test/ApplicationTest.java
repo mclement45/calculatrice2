@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.lang.Math;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import org.junit.*;
@@ -58,9 +57,9 @@ public class ApplicationTest {
         assertThat(new Calcul(x, y).carre()).isEqualTo(r);
     }
     
-    public void assert_racine(double x, double y, double r){
+    /*public void assert_racine(double x, double y, double r){
         assertThat(new Calcul(x, y).racine()).isEqualTo(r);
-    }
+    }*/
 
     @Test
     public void testAddition(){
@@ -99,13 +98,13 @@ public class ApplicationTest {
         assert_carre(9,1,81);
     }
     
-    @Test
+    /*@Test
     public void testRacine(){
         assert_racine(1,1,1);
         assert_racine(4,1,2);
         assert_racine(25,1,5);
         assert_racine(9,1,3);
         assert_racine(81,1,9);
-    }
+    }*/
 
 }

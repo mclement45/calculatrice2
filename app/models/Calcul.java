@@ -1,7 +1,6 @@
 package models;
 
 import java.util.*;
-import java.lang.Math;
 import javax.validation.*;
 import play.data.validation.Constraints.*;
 
@@ -49,12 +48,6 @@ public class Calcul {
     public double carre(){
         double res;
         res=nb1*nb1;
-        return res;
-    }
-    
-    public double racine(){
-        double res;
-        res=Math.sqrt(nb1);
         return res;
     }
 }
