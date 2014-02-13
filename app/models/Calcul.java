@@ -15,11 +15,13 @@ public class Calcul {
 		this.nb1 = x;
 		this.nb2 = y;
     }
-
+	
+	/**
     public Calcul(double x) {
         this.nb1 = x;
     }
-
+	*/
+	
     public double addition(){
 		double res;
 		res=nb1+nb2;

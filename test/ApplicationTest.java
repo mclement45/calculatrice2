@@ -54,12 +54,12 @@ public class ApplicationTest {
         assertThat(new Calcul(x, y).division()).isEqualTo(r);
     }
     
-    public void assert_carre(double x, double r){
-        assertThat(new Calcul(x).carre()).isEqualTo(r);
+    public void assert_carre(double x, double y, double r){
+        assertThat(new Calcul(x, y).carre()).isEqualTo(r);
     }
     
-    public void assert_racine(double x, double r){
-        assertThat(new Calcul(x).racine()).isEqualTo(r);
+    public void assert_racine(double x, double y, double r){
+        assertThat(new Calcul(x, y).racine()).isEqualTo(r);
     }
 
     @Test
@@ -93,19 +93,19 @@ public class ApplicationTest {
     
     @Test
     public void testCarre(){
-        assert_carre(1,1);
-        assert_carre(2,4);
-        assert_carre(5,25);
-        assert_carre(9,81);
+        assert_carre(1,1,1);
+        assert_carre(2,1,4);
+        assert_carre(5,1,25);
+        assert_carre(9,1,81);
     }
     
     @Test
     public void testRacine(){
-        assert_racine(1,1);
-        assert_racine(4,2);
-        assert_racine(25,5);
-        assert_racine(9,3);
-        assert_racine(81,9);
+        assert_racine(1,1,1);
+        assert_racine(4,1,2);
+        assert_racine(25,1,5);
+        assert_racine(9,1,3);
+        assert_racine(81,1,9);
     }
 
 }

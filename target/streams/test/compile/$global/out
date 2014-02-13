@@ -1,26 +1,31 @@
+[0m[[0mdebug[0m] [0mInvalidating \usr\lib\jvm\java-7-openjdk-amd64\jre\lib\rt.jar: class java.lang.Object now provided by C:\Program Files\Java\jre7\lib\rt.jar[0m
+[0m[[0mdebug[0m] [0mInvalidating \home\mclement\play\repository\local\com.typesafe.play\play_2.10\2.2.1\jars\play_2.10.jar: class play.libs.F now provided by C:\dev\play\repository\local\com.typesafe.play\play_2.10\2.2.1\jars\play_2.10.jar[0m
+[0m[[0mdebug[0m] [0mInvalidating \home\mclement\play\repository\local\org.easytesting\fest-assert\1.4\jars\fest-assert.jar: class org.fest.assertions.Assertions now provided by C:\dev\play\repository\local\org.easytesting\fest-assert\1.4\jars\fest-assert.jar[0m
+[0m[[0mdebug[0m] [0mInvalidating \home\mclement\play\repository\local\com.typesafe.play\play-test_2.10\2.2.1\jars\play-test_2.10.jar: class play.test.TestBrowser now provided by C:\dev\play\repository\local\com.typesafe.play\play-test_2.10\2.2.1\jars\play-test_2.10.jar[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
-[0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/home/mclement/calculatrice/test/ApplicationTest.java)[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0m	removed:Set(\home\mclement\calculatrice\test\IntegrationTest.java, \home\mclement\calculatrice\test\ApplicationTest.java)[0m
+[0m[[0mdebug[0m] [0m	added: Set(C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\test\ApplicationTest.java, C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\test\IntegrationTest.java)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(\home\mclement\calculatrice\target\scala-2.10\test-classes\IntegrationTest.class, \home\mclement\calculatrice\target\scala-2.10\test-classes\IntegrationTest$1.class, \home\mclement\calculatrice\target\scala-2.10\test-classes\ApplicationTest.class)[0m
 [0m[[0mdebug[0m] [0mModified external sources: Set(models.Calcul)[0m
-[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/mclement/calculatrice/test/ApplicationTest.java)[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set(\usr\lib\jvm\java-7-openjdk-amd64\jre\lib\rt.jar, \home\mclement\play\repository\local\com.typesafe.play\play_2.10\2.2.1\jars\play_2.10.jar, \home\mclement\play\repository\local\org.easytesting\fest-assert\1.4\jars\fest-assert.jar, \home\mclement\play\repository\local\com.typesafe.play\play-test_2.10\2.2.1\jars\play-test_2.10.jar)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(\home\mclement\calculatrice\test\IntegrationTest.java, \home\mclement\calculatrice\test\ApplicationTest.java, C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\test\ApplicationTest.java, C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\test\IntegrationTest.java)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set()[0m
-[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
-[0m[[0mdebug[0m] [0m	external source: Set(/home/mclement/calculatrice/test/ApplicationTest.java)[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/mclement/calculatrice/test/ApplicationTest.java)[0m
-[0m[[0minfo[0m] [0mCompiling 1 Java source to /home/mclement/calculatrice/target/scala-2.10/test-classes...[0m
+[0m[[0mdebug[0m] [0m	product: Set(\home\mclement\calculatrice\test\IntegrationTest.java, \home\mclement\calculatrice\test\ApplicationTest.java)[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set(\home\mclement\calculatrice\test\IntegrationTest.java, \home\mclement\calculatrice\test\ApplicationTest.java)[0m
+[0m[[0mdebug[0m] [0m	external source: Set(\home\mclement\calculatrice\test\ApplicationTest.java)[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(\home\mclement\calculatrice\test\IntegrationTest.java, \home\mclement\calculatrice\test\ApplicationTest.java, C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\test\ApplicationTest.java, C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\test\IntegrationTest.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 2 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 2 Java sources to C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\target\scala-2.10\test-classes...[0m
 [0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
 [0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
-[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_d066d02b/argfile[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @C:/Users/Sizetwo/AppData/Local/Temp/sbt_23424e33/argfile[0m
 [0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
-[0m[[0mdebug[0m] [0mJava compilation took 0.61623683 s[0m
-[0m[[0mdebug[0m] [0mJava analysis took 0.081096678 s[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/mclement/calculatrice/test/ApplicationTest.java)[0m
+[0m[[0mdebug[0m] [0mJava compilation took 1.633321968 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.001243248 s[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\test\IntegrationTest.java, \home\mclement\calculatrice\test\IntegrationTest.java, \home\mclement\calculatrice\test\ApplicationTest.java, C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\test\ApplicationTest.java)[0m
 [0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m

@@ -1,4 +1,4 @@
 [0m[[0mdebug[0m] [0mCopy play resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/home/mclement/calculatrice/public/stylesheets/main.css,/home/mclement/calculatrice/target/scala-2.10/classes/public/stylesheets/main.css)[0m
-[0m[[0mdebug[0m] [0m	(/home/mclement/calculatrice/public/javascripts/jquery-1.9.0.min.js,/home/mclement/calculatrice/target/scala-2.10/classes/public/javascripts/jquery-1.9.0.min.js)[0m
-[0m[[0mdebug[0m] [0m	(/home/mclement/calculatrice/public/images/favicon.png,/home/mclement/calculatrice/target/scala-2.10/classes/public/images/favicon.png)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\public\images\favicon.png,C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\target\scala-2.10\classes\public\images\favicon.png)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\public\javascripts\jquery-1.9.0.min.js,C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\target\scala-2.10\classes\public\javascripts\jquery-1.9.0.min.js)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\public\stylesheets\main.css,C:\Users\Sizetwo\Documents\gestion de projet\calculatrice2\target\scala-2.10\classes\public\stylesheets\main.css)[0m
